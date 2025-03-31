@@ -1,0 +1,60 @@
+/* General body styling */
+body {
+    background-color: #f0f0f0; /* Light gray background for the entire page */
+    display: flex; /* Use flexbox for centering content */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    height: 100vh; /* Full height of the viewport */
+    margin: 0; /* Remove default margin */
+    font-family: Arial, sans-serif; /* Set a clean, sans-serif font */
+}
+
+/* Container for the login form */
+.container {
+    background-color: rgba(177, 148, 231, 0.388);
+    padding: 20px; /* Space inside the container */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    width: 300px; /* Fixed width for consistency */
+    text-align: center; /* Center text inside container */
+}
+
+/* Header styling */
+h1 {
+    font-weight: bold; /* Bold font for the heading */
+    margin-bottom: 20px; /* Space below heading */
+}
+
+/* Label styling */
+label {
+    display: block; /* Labels take the full width */
+    text-align: left; /* Align text to the left */
+    margin: 10px 0 5px; /* Spacing around labels */
+}
+
+
+/* Input fields styles */
+input {
+    width: 90%; /* 90 percentage width of container */
+    padding: 10px; /* Space inside the input field */
+    margin-bottom: 10px; /* Space below each input */
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 4px; /* Slightly rounded corners */
+}
+
+/* Button styling */
+button {
+    width: 100%; /* Full width of the container */
+    padding: 10px; /* Space inside the button */
+    background-color:  #7b3cb9;
+    color: white; /* White text for contrast */
+    border: none; /* No border */
+    border-radius: 4px; /* Slightly rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-weight: bold; /* Bold text on the button */
+}
+
+/* Button hover effect */
+button:hover {
+    background-color:  #572886;
+}
